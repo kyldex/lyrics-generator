@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Lyrics generator</title>
+    <meta name="description" content="Lyrics generator for the band Tranxen 200 when they lack of inspiration.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;600;700&display=swap">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Hello Tranxen 200</h1>
+
+        <p class="inspiration">Besoin d'inspiration ?</p>
+
+        <!-- SVG icons made by http://www.freepik.com/ from https://www.flaticon.com/ -->
+        <p class="result-class">
+            <img src="./quote.svg" class="quote-start">
+            <span id="result-1">Ton espoir n'est pas si désespéré, </span>
+            <span id="result-2">grâce à l'illusoire précarité de nos amours destituées, </span>
+            <span id="result-3">mais tu dis que le bonheur est irréductible, et je dis </span>
+            <span id="result-4">que nos pensées iconoclastes et désoxydées se sont éclipsées sous l'azur bleu dérisoire du temps qui passe.</span>
+            <img src="./quote.svg" class="quote-end">
+        </p>
+
+        <button type="button" id="click-random">Générateur aléatoire</button>
+
+        <form action="">
+            <select name="lyrics-group-1" id="lyrics-group-1" class="lyrics-group" size="4">
+                <option selected>Ton espoir n'est pas si désespéré, </option>
+                <option>Être ou ne pas être telle est la question, </option>
+                <option>Il faut que tu arrives à laminer tes rancoeurs dialectiques, </option>
+                <option>Le bonheur est à deux doigts de tes pieds, </option>
+            </select>
+            <select name="lyrics-group-2" id="lyrics-group-2" class="lyrics-group" size="4">
+                <option selected>grâce à l'illusoire précarité de nos amours destituées, </option>
+                <option>à condition d'analyser que l'absolu ne doit pas être annihilé, </option>
+                <option>car la simplicité réside dans l'alcôve bleue, jaune, mauve et insoupçonnée, </option>
+                <option>car il ne faut pas cautionner l'irréalité sous des aspérités absentes et désenchantées, </option>
+            </select>
+            <select name="lyrics-group-3" id="lyrics-group-3" class="lyrics-group" size="4">
+                <option selected>mais tu dis que le bonheur est irréductible, et je dis </option>
+                <option>mais comme moi, dis-toi </option>
+                <option>mais ce que je n'ignore pas de savoir, c'est </option>
+                <option>mais tel l'anachorète hypocondriaque, tu dis </option>
+            </select>
+            <select name="lyrics-group-4" id="lyrics-group-4" class="lyrics-group" size="4">
+                <option selected>que nos pensées iconoclastes et désoxydées se sont éclipsées sous l'azur bleu dérisoire du temps qui passe.</option>
+                <option>qu'il est mieux d'éradiquer les tentacules de la déréliction et tout deviendra glucose.</option>
+                <option>que le principe sera glucose et que la scission conceptuelle du concept n'aura pas lieu.</option>
+                <option>que nos désirs sont excommuniés de la fatalité destituée, et vice et versa.</option>
+            </select>
+        </form>
+    </div>
+</body>
+
+</html>

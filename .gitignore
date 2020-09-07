@@ -1,0 +1,5 @@
+dist/
+node_modules/
+
+# Fix compatibility with Mac OS
+package-lock.json
