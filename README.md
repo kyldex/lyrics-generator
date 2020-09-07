@@ -4,10 +4,10 @@ Générateur de paroles pour le groupe Tranxen 200 s'il manque d'inspiration. J'
 
 ## Webpack dev server
 
-$ npm install
-$ npm start
+$ npm install  
+$ npm start  
 
 ## Build
 
-$ npm run build
-Output : dist folder
+$ npm run build  
+Output : dist folder  
